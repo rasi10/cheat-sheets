@@ -7,22 +7,13 @@ In the terminal run: gedit .local/share/applications/eclipse.desktop and insert 
 
 ```sh
 [Desktop Entry]
-
 Name=Eclipse
-
 Type=Application
-
 Exec=/home/USERNAME/eclipse/java-mars/eclipse/eclipse
-
 Terminal=false
-
 Icon=/home/USERNAME/eclipse/java-mars/eclipse/icon.xpm
-
 Comment=Integrated Development Environment
-
 NoDisplay=false
-
 Categories=Development;IDE;
-
 Name[en]=Eclipse
 ```
