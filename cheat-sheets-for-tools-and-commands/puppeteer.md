@@ -32,4 +32,4 @@ const puppeteer = require('puppeteer');
 - node index.js
 
 # Documentation
-[https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagehoverselector][df1]
+https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagehoverselector
