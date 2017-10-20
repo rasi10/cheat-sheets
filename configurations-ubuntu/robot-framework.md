@@ -1,6 +1,6 @@
-# Robotframework
+## Robotframework
 
-# Installation on ubuntu
+### Installation on ubuntu
 
 In the terminal, run the commands:
 
