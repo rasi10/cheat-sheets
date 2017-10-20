@@ -38,7 +38,7 @@ git config --list  (prints a list with the details of the configurations)
 | git help -d |  Displays some concept guides, e.g. tutorial, etc.  |
 | git help everyday |  Displays information about the concept guide "tutorial", <br/> which is useful commands for everyday situations/usage.  |
 | git help tutorial|  Displays information about the concept guide "tutorial".|
-| **_git init_** |  |  
+| **_git init_** | Create an empty Git repository or reinitialize an existing one |  
 | **_git log_** | Show commit logs  |
 | git log --author="Rafael"| Show commit logs. Filtering by author  |
 | git log --author="Rafael"| Show commit logs. Filtering by author  |
