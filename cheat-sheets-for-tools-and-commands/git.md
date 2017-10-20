@@ -24,8 +24,8 @@ git config --list  (prints a list with the details of the configurations)
 | **_git branch_** |  |  
 | **_git clone_** | Clone a repository into a new directory. e.g. "git clone my-repo-on-github" |  
 | **_git commit_** | Record changes to the repository. You need to send a commit message. |
-| git commit -m "Commit message..." | Record changes to the repository. <br/>With the param -m, you can add </br> a message in the same command. |
-| git commit -am "Commit message..."| Record changes to the repository.<br/> With the param -m, you add file contents to the index and can even add a message in the same command. |
+| git commit -m "Commit message..." | Record changes to the repository. <br/>With the param -m, you can add  a message in the same command. |
+| git commit -am "Commit message..."| Record changes to the repository.<br/> With the param -am, you add file contents to the index and can even add a message in the same command. |
 | **_git checkout_** | Switch branches or restore working tree files |
 | git checkout filename| Restore a file to a state before it being edited.<br/> (If done before adding or commiting the file.)  |
 | **_git diff_** | Show changes between commits, commit and working tree, etc |
