@@ -49,7 +49,10 @@ git config --list  (prints a list with the details of the configurations)
 | **_git merge_** |  |  
 | **_git pull_** | Fetch from and integrate with another repository or a local branch |  
 | **_git push_** | Update remote refs along with associated objects |  
+| git push -u origin master| The first time you push the files on your local repo to your remote repo|
 | **_git rebase_** |  |  
+| **_git remote_** | Manage the set of repositories ("remotes") whose branches you track |  
+| git remote add origin URLToRemoteRepo | Links the remote repo with your local repository |  
 | **_git reset_** |  |  
 | git reset --soft fw239(hash) | Go back to a commit and the keep </br>the modified files added to the next commit. |
 | git reset --mixed fw239(hash) | Go back to a specific commit, but </br>do not keep the modified files added to the next stage. i.e. the files will be untracked. |
