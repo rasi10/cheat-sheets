@@ -20,7 +20,6 @@ sudo apt-get install git
 | git commit -am "Commit message..."| Record changes to the repository. With the param -m, you add file contents to the index and can even add a message in the same command. |
 | **git Checkout** | Switch branches or restore working tree files |
 | git checkout filename| Restore a file to a state before it being edited  |
-
 | **git diff** | Show changes between commits, commit and working tree, etc |
 | git diff --name-only | Show changes between commits. Name-only shows only the name of the file that was modified.|
 | **git log** | Show commit logs  |
