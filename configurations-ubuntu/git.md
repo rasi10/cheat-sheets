@@ -1,4 +1,4 @@
-# Installing Git
+### Installing Git
 Run the following command in the terminal
 - sudo apt-get install git
 
