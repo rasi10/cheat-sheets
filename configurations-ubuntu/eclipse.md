@@ -1,7 +1,7 @@
 # Eclipse 
 Download eclipse installer from http://www.eclipse.org/ and run the installer.
 
-# Configuring the launcher:
+### Configuring the launcher:
 Create a file eclipse.desktop under .local/share/applications/
 - In the terminal run: gedit .local/share/applications/eclipse.desktop 
 - Insert the following content:
