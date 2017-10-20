@@ -25,4 +25,6 @@ sudo apt-get install git
 | git log --graph | Show commit logs in a graph.  |
 | git shortlog | Show commit logs in a shorter format than the git log.  |
 | git shortlog -sn | Show commit logs in a even shorter format. |
+| git show | Shows differences, files that were removed/created, etc. |
+| git show fwe239823(<-HASH) | Shows details of a specific commit, that you informed the hash of. |
 | git status | Show the working tree status |  
