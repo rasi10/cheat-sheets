@@ -4,18 +4,16 @@
 sudo apt-get install git 
 
 ### Configuration (basic configuration)
+```sh
 - git config --global user.name "YOUR NAME"
 - git config --global user.email YOUR_EMAIL@email.com
 - git config --global core.editor gedit
-
+```
 **Checking the details of the configuration:**
--git config user.name    
-(prints the name of the user)
-
--git config --list
-(prints a list with the details of the configurations)
-
-
+```sh
+git config user.name   (prints the name of the user)
+git config --list  (prints a list with the details of the configurations)
+```
 ### Useful Commands
 
 | Command | Description |
