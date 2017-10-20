@@ -1,4 +1,4 @@
-# Installing Java
+### Installing Java
 Add the required repository ppa:webupd8team/java and run the installer. In the terminal:
 - sudo apt-add-repository ppa:webupd8team/java
 - sudo apt-get update
