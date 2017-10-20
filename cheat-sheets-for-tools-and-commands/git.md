@@ -24,18 +24,18 @@ git config --list  (prints a list with the details of the configurations)
 | **_git branch_** |  |  
 | **_git clone_** |  |  
 | **_git commit_** | Record changes to the repository. You need to send a commit message. |
-| git commit -m "Commit message..." | Record changes to the repository. With the param -m, you can add a message in the same command. |
-| git commit -am "Commit message..."| Record changes to the repository. With the param -m, you add file contents to the index and can even add a message in the same command. |
+| git commit -m "Commit message..." | Record changes to the repository. <br/>With the param -m, you can add a message in the same command. |
+| git commit -am "Commit message..."| Record changes to the repository.<br/> With the param -m, you add file contents to the index and can even add a message in the same command. |
 | **_git checkout_** | Switch branches or restore working tree files |
-| git checkout filename| Restore a file to a state before it being edited. (If done before adding or commiting the file.)  |
+| git checkout filename| Restore a file to a state before it being edited.<br/> (If done before adding or commiting the file.)  |
 | **_git diff_** | Show changes between commits, commit and working tree, etc |
-| git diff --name-only | Show changes between commits. Name-only shows only the name of the file that was modified.|
+| git diff --name-only | Show changes between commits. Name-only shows only<br/> the name of the file that was modified.|
 | **_git fetch_** |  |  
 | **_git help_** |  Display help information about git  |
 | git help checkout | Example of how to check details on how to use 'git help'  |
 | git help -a |  Displays the available subcommands  |
 | git help -d |  Displays some concept guides, e.g. tutorial, etc.  |
-| git help everyday |  Displays information about the concept guide "tutorial", which is useful commands for everyday situations/usage.  |
+| git help everyday |  Displays information about the concept guide "tutorial", <br/> which is useful commands for everyday situations/usage.  |
 | git help tutorial|  Displays information about the concept guide "tutorial".|
 | **_git init_** |  |  
 | **_git log_** | Show commit logs  |
@@ -51,7 +51,7 @@ git config --list  (prints a list with the details of the configurations)
 | **_git rebase_** |  |  
 | **_git reset_** |  |  
 | **_git reset_** |  |
-| git reset HEAD filename | nano filename <p> git add .  <br/> git reset HEAD filename  | 
+| git reset HEAD filename | nano filename <br/> git add .  <br/> git reset HEAD filename  | 
 
   nano filename
   git add .
