@@ -44,3 +44,19 @@ git config --list  (prints a list with the details of the configurations)
 | **_git show_** | Shows differences, files that were removed/created, etc. |
 | git show fwe239823(<-HASH) | Shows details of a specific commit, that you informed the hash of. |
 | **_git status_** | Show the working tree status |  
+
+
+
+### Useful git flows
+**_Flow 1 - Create a remote repository, create a local repository and send the content of your local repo to your remote repo_**
+```sh
+ADD THE DESCRIPTION OF THE 
+```
+```sh
+ADD THE SEQUENCE OF COMMANDS WITH COMMENTS.
+```
+
+
+
+
+
