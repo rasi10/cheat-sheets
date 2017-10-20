@@ -27,7 +27,7 @@ git config --list  (prints a list with the details of the configurations)
 | git commit -m "Commit message..." | Record changes to the repository. With the param -m, you can add a message in the same command. |
 | git commit -am "Commit message..."| Record changes to the repository. With the param -m, you add file contents to the index and can even add a message in the same command. |
 | **_git checkout_** | Switch branches or restore working tree files |
-| git checkout filename| Restore a file to a state before it being edited  |
+| git checkout filename| Restore a file to a state before it being edited. (If done before adding or commiting the file.)  |
 | **_git diff_** | Show changes between commits, commit and working tree, etc |
 | git diff --name-only | Show changes between commits. Name-only shows only the name of the file that was modified.|
 | **_git fetch_** |  |  
@@ -50,6 +50,13 @@ git config --list  (prints a list with the details of the configurations)
 | **_git push_** |  |  
 | **_git rebase_** |  |  
 | **_git reset_** |  |  
+| **_git reset_** |  |
+| git reset HEAD filename | nano filename <p> git add .  <br/> git reset HEAD filename  | 
+
+  nano filename
+  git add .
+  git reset HEAD Readme.md
+
 | **_git show_** | Shows differences, files that were removed/created, etc. |
 | git show fwe239823(<-HASH) | Shows details of a specific commit, that you informed the hash of. |
 | **_git stash_** |  |  
