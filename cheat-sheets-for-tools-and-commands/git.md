@@ -2,7 +2,12 @@
 
 ## Commands
 
-| Command | Description | Example |
-| ------ | ------ | ------ |
-|  git shortlog | ihasdhlkfjhdsljhfsdlahfdsjl sdfsd fsdalkfsadjhsdalkfhsdalfj sadlfsdalkjfsadlkhsadlfjksdlkfjhsd    | git short log |
-|  git shortlog -sn | ihasdhlkfjhdsljhfsdlahfdsjl sdfsd fsdalkfsadjhsdalkfhsdalfj sadlfsdalkjfsadlkhsadlfjksdlkfjhsd  | git short log -sn |
+| Command | Description |
+| ------ | ------  |
+| git status |     |  
+| git add . |  |
+| git commit -m |  |
+| git commit -am |  |
+| git log |  |
+|  git shortlog |   |
+|  git shortlog -sn |  |
