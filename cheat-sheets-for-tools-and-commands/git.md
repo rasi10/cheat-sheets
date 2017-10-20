@@ -47,8 +47,8 @@ git config --list  (prints a list with the details of the configurations)
 | git shortlog | Show commit logs in a shorter format than the git log.  |
 | git shortlog -sn | Show commit logs in a even shorter format. |
 | **_git merge_** |  |  
-| **_git pull_** |  |  
-| **_git push_** |  |  
+| **_git pull_** | Fetch from and integrate with another repository or a local branch |  
+| **_git push_** | Update remote refs along with associated objects |  
 | **_git rebase_** |  |  
 | **_git reset_** |  |  
 | **_git reset_** |  |
