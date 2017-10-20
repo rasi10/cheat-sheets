@@ -26,6 +26,7 @@ sudo apt-get install git
 | git help checkout | Example of how to check details on how to use 'git help'  |
 | git help -a |  Displays the available subcommands  |
 | git help -d |  Displays some concept guides, e.g. tutorial, etc.  |
+| git help everyday |  Displays information about the concept guide "tutorial", which is useful commands for everyday situations/usage.  |
 | git help tutorial|  Displays information about the concept guide "tutorial".|
 | **git log** | Show commit logs  |
 | git log --author="Rafael"| Show commit logs. Filtering by author  |
