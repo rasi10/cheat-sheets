@@ -27,7 +27,6 @@ sudo apt-get install git
 | git help -a |  Displays the available subcommands  |
 | git help -d |  Displays some concept guides, e.g. tutorial, etc.  |
 | git help tutorial|  Displays information about the concept guide "tutorial".|
-
 | **git log** | Show commit logs  |
 | git log --author="Rafael"| Show commit logs. Filtering by author  |
 | git log --author="Rafael"| Show commit logs. Filtering by author  |
