@@ -19,6 +19,10 @@ sudo apt-get install git
 | git commit -m "Commit message..." | Record changes to the repository. With the param -m, you can add a message in the same command. |
 | git commit -am "Commit message..."| Record changes to the repository. With the param -m, you add file contents to the index and can even add a message in the same command. |
 | git log | Show commit logs  |
-| git shortlog |   |
-| git shortlog -sn |  |
+| git log --author="Rafael"| Show commit logs. Filtering by author  |
+| git log --author="Rafael"| Show commit logs. Filtering by author  |
+| git log --decorate | Show commit logs  |
+| git log --graph | Show commit logs in a graph.  |
+| git shortlog | Show commit logs in a shorter format than the git log.  |
+| git shortlog -sn | Show commit logs in a even shorter format. |
 | git status | Show the working tree status |  
