@@ -18,7 +18,7 @@ git config --list  (prints a list with the details of the configurations)
 
 | Command | Description |
 | ------ | ------  |
-| <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">git add</span> | Adds file contents to the index |
+| <span style="color: #f2cf4a; font-family: Babas; font-size: 10em;">git add</span> | Adds file contents to the index |
 | **_git add_** | Adds file contents to the index | 
 | git add . | Adds all the untracked changes to the index  |
 | git add foldername/ | Adds a folder to the index |
