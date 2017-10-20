@@ -18,7 +18,7 @@ git config --list  (prints a list with the details of the configurations)
 
 | Command | Description |
 | ------ | ------  |
-| **git add** | Adds file contents to the index |
+| **_git add_** | Adds file contents to the index |
 | git add . | Adds all the untracked changes to the index  |
 | git add foldername/ | Adds a folder to the index |
 | **git commit** | Record changes to the repository. You need to send a commit message. |
