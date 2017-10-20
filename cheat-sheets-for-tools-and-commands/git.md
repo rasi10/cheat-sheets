@@ -12,7 +12,8 @@ sudo apt-get install git
 
 | Command | Description |
 | ------ | ------  |
-| git add . | Adds file contents to the index |
+| git add | Adds file contents to the index |
+| git add . | Adds all the untracked changes to the index  |
 | git add foldername/ | Adds a folder to the index |
 | git commit | Record changes to the repository. You need to send a commit message. |
 | git commit -m "Commit message..." | Record changes to the repository. With the param -m, you can add a message in the same command. |
