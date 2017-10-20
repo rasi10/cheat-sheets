@@ -30,7 +30,8 @@ git config --list  (prints a list with the details of the configurations)
 | git checkout filename| Restore a file to a state before it being edited.<br/> (If done before adding or commiting the file.)  |
 | **_git diff_** | Show changes between commits, commit and working tree, etc |
 | git diff --name-only | Show changes between commits. Name-only shows only<br/> the name of the file that was modified.|
-| **_git fetch_** |  |  
+| **_git fetch_** | Downloads objects and refs from another repository  |  
+| git fetch --all | Fetches all remotes  | 
 | **_git help_** |  Display help information about git  |
 | git help checkout | Example of how to check details on how to use 'git help'  |
 | git help -a |  Displays the available subcommands  |
