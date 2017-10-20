@@ -51,9 +51,9 @@ git config --list  (prints a list with the details of the configurations)
 | **_git push_** | Update remote refs along with associated objects |  
 | **_git rebase_** |  |  
 | **_git reset_** |  |  
-| git reset --soft fwe239823(<-HASH) |  |
-| git reset --mixed fwe239823(<-HASH) |  |
-| git reset --hard fwe239823(<-HASH) |  |
+| git reset --soft fwe239(<-HASH) | Go back to a commit and the keep </br>the modified files added to the next commit. |
+| git reset --mixed fwe239(<-HASH) | Go back to a specific commit, but </br>do not keep the modified files added to the next stage. i.e. the files will be untracked. |
+| git reset --hard fwe239(<-HASH) |  |
 | **_git reset_** |  |
 | git reset HEAD filename | nano filename <br/> git add .  <br/> git reset HEAD filename  | 
 | **_git show_** | Shows differences, files that were removed/created, etc. |
