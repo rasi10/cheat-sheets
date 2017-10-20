@@ -1,9 +1,9 @@
 # Git 
 
-### Installation (Ubuntu!)
+## Installation (Ubuntu!)
 sudo apt-get install git 
 
-### Configuration (basic configuration)
+## Configuration (basic configuration)
 ```sh
 - git config --global user.name "YOUR NAME"
 - git config --global user.email YOUR_EMAIL@email.com
@@ -14,7 +14,7 @@ sudo apt-get install git
 git config user.name   (prints the name of the user)
 git config --list  (prints a list with the details of the configurations)
 ```
-### Useful Commands
+## Useful Commands
 
 | Command | Description |
 | ------ | ------  |
@@ -47,7 +47,7 @@ git config --list  (prints a list with the details of the configurations)
 
 
 
-### Useful git flows
+## Useful git flows
 **_Flow 1 - Create a remote repository, create a local repository and send the content of your local repo to your remote repo_**
 ```sh
 ADD THE DESCRIPTION OF THE 
