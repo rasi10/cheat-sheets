@@ -1,4 +1,4 @@
-# Installing Maven
+### Installing Maven
 Run the following command in the terminal
 - sudo apt-get install maven
 
