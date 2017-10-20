@@ -1,4 +1,4 @@
-# Git 
+# Git - Cheat sheet
 
 ## Installation (Ubuntu!)
 sudo apt-get install git 
