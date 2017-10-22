@@ -1,13 +1,13 @@
-# Getting started with Node and Puppeteer on Ubuntu
-# Install nvm and source the file .bashrc:
+## Getting started with Node and Puppeteer on Ubuntu
+### Install nvm and source the file .bashrc:
 - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 - source ~/.bashrc
 
-# Install node and set the default node version on your shell:
+### Install node and set the default node version on your shell:
 - nvm install v8.4.0
 - nvm alias default v8.4.0
 
-# Create a project and a sample index.js file
+### Create a project and a sample index.js file
 - mkdir helloworld-pupeteer
 - cd helloworld-pupeteer/
 - npm init
@@ -28,8 +28,8 @@ const puppeteer = require('puppeteer');
 })();
 
 ```
-# Run the project:
+### Run the project:
 - node index.js
 
-# Documentation
+### Documentation
 https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagehoverselector
