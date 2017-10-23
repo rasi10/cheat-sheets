@@ -63,6 +63,9 @@ git config --list  (prints a list with the details of the configurations)
 | **_git stash_** |  |  
 | **_git status_** | Show the working tree status |  
 
+## Extras
+- Fork: Make a copy of a project, that is not yours from the start, into your own github. After that you can make modifications and send a pull request to the original repository that you copied the project from. 
+
 ## Useful git flows
 **_Flow 1 - Create a remote repository, create a local repository and send the content of your local repo to your remote repo_**
 ```sh
