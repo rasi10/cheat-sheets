@@ -58,7 +58,7 @@ git config --list  (prints a list with the details of the configurations)
 | git rebase BranchToRebase | Puts together the branches together with the one that <br/>you are working with. It does not create a new merge branch and alters <br/>the chronological order of the commits. |  
 | **_git remote_** | Manage the set of repositories ("remotes") whose branches you track |  
 | git remote add origin URLToRemoteRepo | Links the remote repo with your local repository |  
-| **_git reset_** |  |  
+| **_git reset_** | Reset current HEAD to the specified state |  
 | git reset --soft fw239(hash) | Go back to a commit and the keep </br>the modified files added to the next commit. |
 | git reset --mixed fw239(hash) | Go back to a specific commit, but </br>do not keep the modified files added to the next stage. i.e. the files will be untracked. |
 | git reset --hard fw239(hash) | Go back to a specific commit and removes </br>all the commits that came after the specific one you are going back to. |
