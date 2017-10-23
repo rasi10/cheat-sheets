@@ -70,7 +70,7 @@ git config --list  (prints a list with the details of the configurations)
 | git stash list | Lists all the stashes that you have made |
 | git stash clear | Clears all the stashes that you have stored.|
 | **_git status_** | Show the working tree status |  
-|**_git tag_**| Creates tags for, e.g. saying that you finished with a feature, etc..<br/> EX: git tag - 1.0 -m "Message"<br/> git push origin master --tags (Then you can check on github under "Releases")|
+|**_git tag_**| Creates tags for, e.g. saying that you finished with a feature, etc..<br/> EX: git tag -a 1.0 -m "Message"<br/> git push origin master --tags (Then you can check on github under "Releases")|
 
 ## Extras
 - Fork: Make a copy of a project, that is not yours from the start, into your own github. After that you can make modifications and send a pull request to the original repository that you copied the project from. 
