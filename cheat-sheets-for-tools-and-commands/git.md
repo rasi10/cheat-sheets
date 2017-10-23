@@ -25,6 +25,7 @@ git config --list  (prints a list with the details of the configurations)
 | git checkout -b BranchName | Creates a new branch and switches your working <br/>branch to be the one that you created |  
 | git checkout BranchName    | Switches your working branch to be the one that <br/> you informed together with the command checkout      | 
 | git branch -D BranchName   | Deletes a branch that you informed together with the command branch -D.       |
+|git push origin :BranchToDelete| Deletes a remote branch |
 | **_git clone_** | Clone a repository into a new directory. e.g. "git clone my-repo-on-github" |  
 | **_git commit_** | Record changes to the repository. You need to send a commit message. |
 | git commit -m "Commit message..." | Record changes to the repository. <br/>With the param -m, you can add  a message in the same command. |
@@ -74,6 +75,8 @@ git config --list  (prints a list with the details of the configurations)
 | **_git status_** | Show the working tree status |  
 |**_git tag_**| Used to create tags for, e.g. saying that you finished with a feature, etc..<br/> EX: git tag -a 1.0 -m "Message"<br/> git push origin master --tags (Then you can check on github under "Releases")|
 |git tag | Shows all the tags that you created|
+|git tag -d TagToDelete| Deletes a local tag |
+|git push origin :TagToDelete| Deletes a remote tag |
 
 ## Extras
 - Fork: Make a copy of a project, that is not yours from the start, into your own github. After that you can make modifications and send a pull request to the original repository that you copied the project from. 
