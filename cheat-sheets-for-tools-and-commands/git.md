@@ -82,12 +82,19 @@ git config --list  (prints a list with the details of the configurations)
 - Fork: Make a copy of a project, that is not yours from the start, into your own github. After that you can make modifications and send a pull request to the original repository that you copied the project from. 
 
 ## Useful git flows
-**_Flow 1 - Create a remote repository, create a local repository and send the content of your local repo to your remote repo_**
+**_Flow 1 - Cloning a project from your GitHub to your local repository, making changes and pushing it to GitHub.**
 ```sh
-ADD THE DESCRIPTION OF THE FLOW 
-```
-```sh
-ADD THE SEQUENCE OF COMMANDS WITH COMMENTS.
+cd workspace  (Navigate to your workspace!)
+git clone #LINK TO YOUR REPOSITORY#
+git status
+gedit test.txt
+(add: ”I just added this line to this file” within your test.txt and save it.
+git status.
+git add -u
+git commit -m "This my latest commit“
+git push
+git log
+
 ```
 
 
