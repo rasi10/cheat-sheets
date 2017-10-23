@@ -65,8 +65,12 @@ git config --list  (prints a list with the details of the configurations)
 | git reset HEAD filename | Unstages the file that you have added. Like in the folowing flow: <br/> - nano filename (Then you add changes to the file)<br/> - git add . (You stage the file. )  <br/> - git reset HEAD filename (Now you have unstaged the file) | 
 | **_git show_** | Shows differences, files that were removed/created, etc. |
 | git show fwe239823(hash) | Shows details of a specific commit, that you informed the hash of. |
-| **_git stash_** |  |  
+| **_git stash_** | Stashes, i.e. saves temporarily changes that were not yet commited |
+| git stash apply | Applies the changes that you had stashed into the working branch   |
+| git stash list | Lists all the stashes that you have made |
+| git stash clear | Clears all the stashes that you have stored.|
 | **_git status_** | Show the working tree status |  
+|**_git tag_**| Creates tags for, e.g. saying that you finished with a feature, etc..<br/> EX: git tag - 1.0 -m "Message"<br/> git push origin master --tags (Then you can check on github under "Releases")|
 
 ## Extras
 - Fork: Make a copy of a project, that is not yours from the start, into your own github. After that you can make modifications and send a pull request to the original repository that you copied the project from. 
