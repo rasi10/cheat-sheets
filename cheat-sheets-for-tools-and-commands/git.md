@@ -63,7 +63,7 @@ git config --list  (prints a list with the details of the configurations)
 | git reset --mixed fw239(hash) | Go back to a specific commit, but </br>do not keep the modified files added to the next stage. i.e. the files will be untracked. |
 | git reset --hard fw239(hash) | Go back to a specific commit and removes </br>all the commits that came after the specific one you are going back to. |
 | git reset HEAD filename | Unstages the file that you have added. Like in the folowing flow: <br/> - nano filename (Then you add changes to the file)<br/> - git add . (You stage the file. )  <br/> - git reset HEAD filename (Now you have unstaged the file) | 
-|**_git revert_**|Reverts a commit to a past commit |
+|**_git revert_**|Reverts a commit to a past commit, keeping the changes that you have in your working commit (differently from "reset") |
 | git revert fw239(hash) | Reverts a commit to a past commit and do not remove the changes in <br/>the commit that you are working at|
 | **_git show_** | Shows differences, files that were removed/created, etc. |
 | git show fwe239823(hash) | Shows details of a specific commit, that you informed the hash of. |
