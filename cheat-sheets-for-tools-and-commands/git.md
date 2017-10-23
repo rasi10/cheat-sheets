@@ -83,7 +83,7 @@ git config --list  (prints a list with the details of the configurations)
 
 ## Useful git flows
 **_Flow 1 - Cloning a project from your GitHub to your local repository, making changes and pushing it to GitHub.**
-```sh
+```
 cd workspace  (Navigate to your workspace!)
 git clone #LINK TO YOUR REPOSITORY#
 git status
