@@ -21,7 +21,10 @@ git config --list  (prints a list with the details of the configurations)
 | **_git add_** | Adds file contents to the index | 
 | git add . | Adds all the untracked changes to the index  |
 | git add foldername/ | Adds a folder to the index |
-| **_git branch_** |  |  
+| **_git branch_** | show all the branches and which one you are using at the moment. |  
+| git checkout -b BranchName | Creates a new branch and switches your working <br/>branch to be the one that you created |  
+| git checkout BranchName    | Switches your working branch to be the one that <br/> you informed together with the command checkout      | 
+| git branch -D BranchName   | Deletes a branch that you informed together with the command branch -D.       |
 | **_git clone_** | Clone a repository into a new directory. e.g. "git clone my-repo-on-github" |  
 | **_git commit_** | Record changes to the repository. You need to send a commit message. |
 | git commit -m "Commit message..." | Record changes to the repository. <br/>With the param -m, you can add  a message in the same command. |
