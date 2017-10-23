@@ -49,11 +49,13 @@ git config --list  (prints a list with the details of the configurations)
 | git log --graph | Show commit logs in a graph.  |
 | git shortlog | Show commit logs in a shorter format than the git log.  |
 | git shortlog -sn | Show commit logs in a even shorter format. |
-| **_git merge_** |  |  
+| **_git merge_** | Merges, i.e. puts together two branches. It creates a new commit <br/>and will not delete any of the existing branches. As a drawback, it creates a new commit into the history. |  
+| git merge BranchToMerge   |  Merges the BranchToMerge together with the branch that <br/>you are working at   |
 | **_git pull_** | Fetch from and integrate with another repository or a local branch |  
 | **_git push_** | Update remote refs along with associated objects |  
 | git push -u origin master| The first time you push the files on your local repo to your remote repo|
-| **_git rebase_** |  |  
+| **_git rebase_** | Puts together branches without creating an extra merge commit. <br/>You will still be in your working branch |  
+| git rebase BranchToRebase | Puts together the branches together with the one that <br/>you are working with. It does not create a new merge branch and alters <br/>the chronological order of the commits. |  
 | **_git remote_** | Manage the set of repositories ("remotes") whose branches you track |  
 | git remote add origin URLToRemoteRepo | Links the remote repo with your local repository |  
 | **_git reset_** |  |  
