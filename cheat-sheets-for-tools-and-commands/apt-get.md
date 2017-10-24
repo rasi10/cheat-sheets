@@ -110,12 +110,10 @@ sudo apt-file search <filename_search_pattern>
 sudo apt-cache pkgnames
 ```
 
-**_Search for file that contains filename as whole word _**
+**_Search for file that contains filename as whole word_**
 ```
 sudo apt-cache search <filename> | grep -w <filename>
 ```
-
-
 
 **_Lists for a particular executable_**
 ```
