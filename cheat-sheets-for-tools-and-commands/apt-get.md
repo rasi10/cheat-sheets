@@ -1,4 +1,4 @@
-### ap-get
+### apt-get (on Ubuntu!)
 **_Installing a package_**
 ```
 sudo apt-get install package  (e.g. jmeter)
