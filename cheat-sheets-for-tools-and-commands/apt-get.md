@@ -1,7 +1,7 @@
 ## Package management with apt (On Ubuntu)
 
 
-**_Help manual for apt-get _**
+**_Help manual for apt-get_**
 ```
 man apt-get
 ```
