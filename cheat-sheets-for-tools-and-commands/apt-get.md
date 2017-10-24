@@ -8,6 +8,7 @@ man apt-get
 
 ## Parameters
 **_Parameters to use with apt-get_**
+
 |Parameter |Description|
 |-----|-----|
 |-h | help|
@@ -109,7 +110,7 @@ sudo apt-file search <filename_search_pattern>
 sudo apt-cache pkgnames
 ```
 
-**_Search for file that contains <filename> as whole word _**
+**_Search for file that contains filename as whole word _**
 ```
 sudo apt-cache search <filename> | grep -w <filename>
 ```
